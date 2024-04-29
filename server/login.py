@@ -9,3 +9,11 @@ users = {
     # Add more users as needed
 }
 
+def validate_credentials(email, password):
+    # Check if the user exists and the password matches
+    if email in users and users[email]['password'] == password:
+        # Return the user ID if credentials are valid
+        return users[email]['user_id']
+    else:
+        # Return None if authentication fails
+        return None
