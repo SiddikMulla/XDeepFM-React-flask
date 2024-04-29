@@ -14,7 +14,7 @@ function Electronics() {
 
   const fetchRecommendations = async () => {
     try {
-      const response = await axios.post("http://localhost:5000/recommend", {
+      const response = await axios.post("http://localhost:9000/recommend", {
         category: "Electronics",
         user_id: localStorage.getItem("userId"), // Replace 'your_user_id_here' with the actual user ID
         n_recommendations: 10,

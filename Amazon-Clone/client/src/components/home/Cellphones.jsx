@@ -14,7 +14,7 @@ function Cellphones() {
 
   const fetchRecommendations = async () => {
     try {
-      const response = await axios.post("http://192.168.68.146:9000/recommend", {
+      const response = await axios.post("http://localhost:9000/recommend", {
         category: "Cell_Phones_and_Accessories",
         user_id: localStorage.getItem("userId"), // Replace 'your_user_id_here' with the actual user ID
         n_recommendations: 10,
