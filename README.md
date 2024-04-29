@@ -9,7 +9,7 @@ created an algorithm for `Amazon-Clone` which will implement XdeepFM algorithm
 <em>then</em> `npm run start`
 
 The Displayed clone then connected to Flask server using `axios` client
-<i>login with the user stored in py dict.</i>
+### <i>login with the user stored in py dict.</i>
 
 ## Back-End
 Install dependencies 
