@@ -2,7 +2,7 @@
 created an algorithm for `Amazon-Clone` which will implement XdeepFM algorithm
 
 ## Clone/Fork the Repository
-`https://github.com/SiddikMulla/XDeepFM-React-flask.git` /`git fork`
+`https://github.com/SiddikMulla/XDeepFM-React-flask.git`  /  `git fork`
 
 ## Front-End
 `cd Amazon-Clione` , `cd client`
