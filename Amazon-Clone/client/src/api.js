@@ -1,8 +1,8 @@
 const axios = require('axios')
 
 async function fetchData() {
-    const username = 'Siddik';
-    const password = 'Siddik_1234MM';
+    const username = '***';
+    const password = '***';
     const body = {
         'source': 'amazon_product',
         'domain': 'com',
