@@ -5,7 +5,7 @@ created an algorithm for `Amazon-Clone` which will implement XdeepFM algorithm
 `https://github.com/SiddikMulla/XDeepFM-React-flask.git`  /  `git fork`
 
 ## Front-End
-`cd Amazon-Clione` , `cd client`
+`cd Amazon-Clone` , `cd client`
 <em>then</em> `npm run start`
 
 The Displayed clone then connected to Flask server using `axios` client
